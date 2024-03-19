@@ -20,7 +20,7 @@ if ($mail_list) {
 
         $body = quoted_printable_decode($message);
 
-        if ($from == '79208562003@mail.ru') {
+        if ($from == '123@mail.ru') {
             $item1 = item($body, 'Random: ');
             $item2 = item($body, 'text: ');
             dbInsert($item1, $item2);
